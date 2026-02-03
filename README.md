@@ -36,7 +36,7 @@ Welcome to my personal portfolio website. This project showcases my journey as a
 
 ## 📬 Contact
 
-Feel free to reach out to me via the contact form on the website or connect on [LinkedIn](https://linkedin.com).
+Feel free to reach out to me via the contact form on the website or connect on [LinkedIn](https://linkedin.com/in/atharv-kundalkar-149898267).
 
 ---
 &copy; 2025 Atharv Kundalkar. All Rights Reserved.
