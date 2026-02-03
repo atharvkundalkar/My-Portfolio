@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Atharv Kundalkar | Portfolio</title>
+    <title>Atharv Kundalkar | Portfolio</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header class="header">
-        <a href="#" class="logo">Atharv's Portfolio</a>
+        <a href="#" class="logo">Atharv.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
@@ -19,100 +26,138 @@
         </nav>
     </header>
 
-    <main>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, I am</h3>
-                <h3>Atharv Kundalkar</h3>
-                <p>A passionate and dedicated fresher software developer with a strong foundation in problem-solving and web technologies.</p>
-                <div class="social-media">
-                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                    <a href="https://github.com" target="_blank">GitHub</a>
-                </div>
-                <a href="#contact" class="btn">Contact Me</a>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Atharv Kundalkar</h1>
+            <h3>And I'm a <span class="multiple-text">Software Developer</span></h3>
+            <p>A passionate and dedicated software developer with a strong foundation in problem-solving and modern web
+                technologies. Transforming ideas into digital reality.</p>
+            <div class="social-media">
+                <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
             </div>
-            <div class="home-img">
-                <img src="Portfolio1.jpg" alt="Profile Picture">
-            </div>
-        </section>
+            <a href="#contact" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="Portfolio1.jpg" alt="Profile Picture">
+        </div>
+    </section>
 
-        <section class="about" id="about">
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Portfolio1.jpg" alt="About Me">
+        </div>
+
+        <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <div class="about-content">
-                <h3>I'm a Software Developer!</h3>
-                <p>I am a passionate and aspiring Software Developer currently pursuing my BCA 3rd year. I have a solid foundation in HTML5, CSS3, JavaScript, and React, and I am eager to apply my skills in real-world projects. I am actively seeking a Web Development internship to gain hands-on experience, enhance my technical abilities, and contribute to innovative web solutions.
+            <h3>Software Developer</h3>
+            <p>I am a passionate and aspiring Software Developer currently pursuing my BCA 3rd year. I have a solid
+                foundation in HTML5, CSS3, JavaScript, and React. I am eager to apply my skills in real-world projects
+                and active seeking a Web Development internship. I am highly motivated to learn new technologies and
+                grow as a full-stack developer.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
 
-           I am highly motivated to learn new technologies, improve my coding skills, and grow as a full-stack web developer while creating impactful and user-friendly web applications.</p>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, JavaScript, React, Tailwind CSS, Bootstrap</p>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </section>
 
-        <section class="skills" id="skills">
-            <h2 class="heading">My <span>Skills</span></h2>
-            <div class="skills-content">
-                
-                <div class="skill-box">
-                    <h4>Web Technologies</h4>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div class="skill-box">
-                    <h4>Tools & Frameworks</h4>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>VS Code</li>
-                        <li>Replit</li>
-                        
-                    </ul>
+            <div class="skills-box">
+                <i class='bx bx-crop'></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Responsive Design, User Experience</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-data'></i>
+                <h3>Backend</h3>
+                <p>Node.js, Express, MongoDB, MySQL, API Integration</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>React+GSAP Animation</h4>
+                    <p>An animated web app created using React, GSAP, and Tailwind CSS. A clone of thirtysixstudio
+                        agency.</p>
+                    <a href="https://github.com/atharvkundalkar/React-GSAP-Animation" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
-        </section>
 
-        <section class="projects" id="projects">
-            <h2 class="heading">My <span>Projects</span></h2>
-            <div class="projects-content">
-                <div class="project-box">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>React+GSAP Animation</h3>
-                    <p>This is an animated web app which is created using React+GSAP,Tailwind CSS. Basically it is a clone of thirtysixstuido agency web app.</p>
-                    <a href="https://github.com/atharvkundalkar/React-GSAP-Animation" class="project-btn" target="_blank">View Project</a>
+            <div class="portfolio-box">
+                <img src="todoapp.png" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Todo List App</h4>
+                    <p>A simple todo list application built with React and Tailwind CSS for tracking tasks effectively.
+                    </p>
+                    <a href="https://lnkd.in/g6q2q3hZ" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
-
-                <div class="project-box">
-                    <img src="todoapp.png" alt="Project 1">
-                    <h3>Todo list Project</h3>
-                    <p>This is a simple todo list application built with React and Tailwind CSS. This application allows users to add, edit, delete, and track completed tasks, providing an intuitive and responsive user experience.</p>
-                    <a href="https://lnkd.in/g6q2q3hZ" class="project-btn" target="_blank">View Project</a>
-                </div>
-               
             </div>
-        </section>
 
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me</span></h2>
-            <form action="#">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email Address" required>
+            <div class="portfolio-box">
+                <img src="project1.jpg" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Modern and responsive web design projects showcasing creative UI/UX solutions.</p>
+                    <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
-                <div class="input-box">
-                    <input type="tel" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject" required>
-                </div>
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-        </section>
-    </main>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
 
     <footer class="footer">
-        <p>&copy; 2025 Atharv Kundalkar. All Rights Reserved.</p>
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Atharv Kundalkar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
     </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="script.js"></script>
 </body>
+
 </html>
